@@ -1,0 +1,144 @@
+#navbar_div {
+  background-color: #ae4a84;
+  margin-top: 0px;
+  width: 100vw;
+}
+#listbar {
+  list-style: none;
+  display: flex;
+  width: auto;
+}
+#logo_item {
+  margin-right: 50px;
+}
+#building_u_logo {
+  background-color: #ae4a84;
+  margin: 10px;
+  border: none;
+  margin-left: 3vw;
+}
+.navButton {
+  background-color: #ae4a84;
+  border: none;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  padding: auto;
+}
+.navLink {
+  font-family: "Coolvetica", sans-serif;
+  width: 13vw;
+  font-size: 30pt;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#sign_in_up {
+  background-color: #ae4a84;
+  border: none;
+  margin-right: 0vw;
+  margin-left: 7vw;
+  padding: 0px;
+}
+#partner_with_us_link {
+  background-color: #ef7f1a;
+}
+#partner_with_us {
+  background-color: #ef7f1a;
+}
+body {
+  background-color: #008dd2;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+#pageBody {
+  display: flex;
+}
+#leftSide {
+  width: 30vw;
+  margin-left: 0px;
+  align-content: space-between;
+}
+#leftCornerImages {
+  background-image: url("/bu-front/mockups/assets/talkpage/img_green-back.png");
+  margin-left: 0px;
+  margin-bottom: auto;
+  margin-top: 70%;
+  height: 378.5px;
+  width: 232.5px;
+  align-self: baseline;
+}
+#dog {
+  height: 300px;
+  width: 300px;
+  margin-top: auto;
+}
+#PartnerWithUs {
+  font-family: "Coolvetica", sans-serif;
+  color: white;
+  font-size: 50pt;
+  font-weight: bold;
+  padding: 0;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  width: max-content;
+}
+#Line {
+  color: white;
+  background-color: white;
+  height: 15px;
+  margin-left: 35%;
+  display: flex;
+  width: 1000px;
+  margin-top: 0px;
+}
+#rightSide {
+  background-image: url(/bu-front/mockups/assets/homepage/bg_desktop.png);
+  width: 70vw;
+  display: block;
+}
+#letsTalkLogoDiv {
+  width: 100%;
+  text-align: right;
+}
+#letsTalkLogo {
+  height: 184px;
+  width: 222px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-left: auto;
+}
+#options {
+  display: flex;
+  width: 100%;
+}
+.options {
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  border: solid 4px white;
+  width: 10vw;
+  text-align: center;
+  font-size: 20pt;
+  font-family: "Coolvetica", sans-serif;
+  font-weight: bold;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+#displayArea {
+  width: 100%;
+  text-align: center;
+}
+#placeholderText {
+  font-family: Corbel, sans-serif;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  width: fit-content;
+  font-style: italic;
+  font-size: 40pt;
+}
