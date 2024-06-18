@@ -18,7 +18,7 @@
               </li>
               <li id="about_us_link" class="desktop_elements">
                 <button id="about_us" class="navButton">
-                  <a href="!!!Link Not Avaliable!!!" id="aboutUsText" class="navLink">About us</a>
+                  <a href="!!!Link Not Avaliable!!!" id="aboutUsText" class="navLink">About<br>us</a>
                 </button>
               </li>
               <li id="our_internship_link">
@@ -46,34 +46,187 @@
           </nav>
         </div>
         <div id="pageBody">
-            <div id="leftSide">
-                <p id="PartnerWithUs">Partner With Us</p>
-                <hr id="Line">
-                <div id="leftCornerImages">   
-                    <img src="/bu-front/mockups/assets/talkpage/dog.png" alt="dog" id="dog"></img>
-                </img>
-                </div>
-            </div>
-            <div id="rightSide">
-                <div id="letsTalkLogoDiv">
-                    <img src="/bu-front/mockups/assets/talkpage/logoletstalk.png" id="letsTalkLogo">
-                </div>
-                <div id="options">
-                    <div id="SponsoringPartners" class="options" onclick="sponsoringPartners()">
-                        Sponsoring Partners
-                    </div>
-                    <div id="EventPartners" class="options"  onclick="eventPartners()">
-                        Event Partners
-                    </div>
-                    <div id="RafflePartners" class="options"  onclick="rafflePartners()">
-                        Raffle Partners
-                    </div>
-                </div>
-                <div id="displayArea">
-                    <p id="placeholderText">Press one of the options to learn more</p>
-                </div>
+          <div id="leftSide">
+            <p id="PartnerWithUs">Partner With Us</p>
+            <hr id="Line">
+            <div id="leftCornerImages">   
+                <img src="/bu-front/mockups/assets/talkpage/dog.png" alt="dog" id="dog"></img>
+            </img>
             </div>
         </div>
+        <div id="rightSide">
+            <div id="letsTalkLogoDiv">
+                <img src="/bu-front/mockups/assets/talkpage/logoletstalk.png" id="letsTalkLogo">
+            </div>
+            <div id="options">
+                <button id="SponsoringPartners" class="options" onclick="sponsoringPartners()" type="button">
+                    Sponsoring Partners
+                </button>
+                <button id="EventPartners" class="options"  onclick="eventPartners()" type="button">
+                    Event Partners
+                </button>
+                <button id="RafflePartners" class="options"  onclick="rafflePartners()" type="button">
+                    Raffle Partners
+                </button>
+            </div>
+            <div id="displayArea">
+                <p id="placeholderText">Press one of the options to learn more</p>
+                <div id="sponsoringPartnersText">
+                  <div id="sponsoringPartnersTextLeft">
+                    <div id="sponsoringPartnersTextLeft1">
+                      <div class="benefits" id="logoPresence1">
+                        Logo <br> Presence
+                      </div><br>
+                      <div class="benefitsText">
+                        Event Specific<br> Perks:
+                      </div><br>
+                      <div class="benefits" id="b2bComm1">
+                        B2B <br> Communication
+                      </div><br>
+                      <div class="benefits" id="studentQnA1">
+                        Student <br> Q&A session
+                      </div><br>
+                    </div>
+                    <div id="sponsoringPartnersTextLeft2">
+                      <div class="benefitsText">
+                        Get <br>Featured In:
+                      </div><br>
+                      <div class="benefits" id="emailCamp1">
+                        Email <br> Campaigns
+                      </div><br>
+                      <div class="benefits" id="socialMedia1">
+                        Social <br> Media
+                      </div><br>
+                      <div class="benefitsText">
+                        Opportunity<br> for:
+                      </div><br>
+                      <div class="benefits" id="teamNaming1">
+                        Team <br> Naming
+                      </div><br>
+                      <div class="benefits" id="projSpon1">
+                        Project <br> Sponsorship
+                      </div><br>
+                    </div>
+                  </div>
+                  <div id="sponsoringPartnersTextRight">
+                    <div id="sponsoringPartnersTextRightTop">
+                      These are our financial partners that provide the funding<br>and operational service support that make all of our<br>programming and growth at building-U possible.<br>As a SPONSORING PARTNER you get your LOGO featured<br>in our Footer and Hyperlinked to your page for a timeframe<br>of your choosing... plus a lot of other stuff possibly!
+                    </div>
+                    <div id="sponsoringPartnersTextRightBottom">
+                      <div id="sponsoringPartnersTextRightBottomLeft">
+                        1 mth/$500<br>3 mth/$1400<br>6 mth/$2700<br>12 mth/$5000
+                      </div>
+                      <div id="sponsoringPartnersTextRightBottomRight">
+                        <button id="partnerFormbtn">Go to<br>Partner Form</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="eventPartnersText">
+                  <div id="eventPartnersTextLeft">
+                    <div id="eventPartnersTextLeft1">
+                      <div class="benefits" id="logoPresence1">
+                        Logo <br> Presence
+                      </div><br>
+                      <div class="benefitsText">
+                        Event Specific<br> Perks:
+                      </div><br>
+                      <div class="benefits" id="b2bComm1">
+                        B2B <br> Communication
+                      </div><br>
+                      <div class="benefits" id="studentQnA1">
+                        Student <br> Q&A session
+                      </div><br>
+                    </div>
+                    <div id="eventPartnersTextLeft2">
+                      <div class="benefitsText">
+                        Get <br>Featured In:
+                      </div><br>
+                      <div class="benefits" id="emailCamp1">
+                        Email <br> Campaigns
+                      </div><br>
+                      <div class="benefits" id="socialMedia1">
+                        Social <br> Media
+                      </div><br>
+                    </div>
+                  </div>
+                  <div id="eventPartnersTextRight">
+                    <div id="eventPartnersTextRightTop">
+                      These are people who have been invited to represent<br>their business or what they do at our event $4YT<br><br>As an EVENT PARTNER you get your LOGO<br>featured in the Partner portion of the $4YT page...<br>leading up to and during the event...plus some other stuff<br><br> In exchange, you give a bit of your time create<br>questions, interact with students, evaluate submissions<br> and select prize winners!
+                    </div>
+                    <div id="eventPartnersTextRightBottom">
+                      <div id="eventPartnersTextRightBottomLeft"></div>
+                      <div id="eventPartnersTextRightBottomRight">
+                        <button id="partnerFormbtn">Go to<br>Partner Form</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="rafflePartnersText">
+                  <div id="rafflePartnersTextLeft">
+                    <div class="benefitsRaffle" id="logoPresence1">
+                      Logo <br> Presence
+                    </div>
+                    <div class="benefitsText">
+                      Event Specific<br> Perks:
+                    </div><br>
+                    <div class="benefitsRaffle" id="b2bComm1">
+                      B2B <br> Communication
+                    </div>
+                  </div>
+                  <div id="rafflePartnersTextRight">
+                    <div id="rafflePartnersTextRightTop">
+                      These are organizations who have offered to donate some<br> company swag to our Raffle Rally at $4YT<br><br>As a RAFFLE PARTNER you get your LOGO featured<br>on the Raffle page during the weekend of $4YT...<br>plus some other stuff
+                    </div>
+                    <div id="rafflePartnersTextRightBottom">
+                      <div id="rafflePartnersTextRightBottomLeft"></div>
+                      <div id="rafflePartnersTextRightBottomRight">
+                        <button id="partnerFormbtn">Go to<br>Partner Form</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="partnerFormDiv">
+                  <div id="partnerFormDivLeft">
+                    <div id="partnerFormLabels">
+                      First Name<br><br>Last Name<br><br>Business Name<br><br>Country<br><br>Email<br><br>Phone<br><br>Type of Plan
+                    </div>
+                    <div id="partnerFormInputs">
+                      <form id="partnerForm">
+                        <input id="firstNameInput" type="text" class="partnerFormInputField"></input>
+                        <input id="lastNameInput" type="text" class="partnerFormInputField"></input>
+                        <input id="businessNameInput" type="text" class="partnerFormInputField"></input>
+                        <input id="countryInput" type="text" class="partnerFormInputField"></input>
+                        <input id="emailInput" type="email" class="partnerFormInputField"></input>
+                        <input id="phoneNumberInput" type="text" class="partnerFormInputField"></input>
+                        <select id="typeOfPlanInput" class="partnerFormInputField">
+                          <option class="typeOfPlanOption" id="">Select</option>
+                          <option class="typeOfPlanOption" id="">12 months</option>
+                          <option class="typeOfPlanOption" id="">6 months</option>
+                          <option class="typeOfPlanOption" id="">3 months</option>
+                          <option class="typeOfPlanOption" id="">1 month</option>
+                          <option class="typeOfPlanOption" id="">Other</option>
+                        </input>
+                      </form>
+                    </div>
+                  </div>
+                  <div id="partnerFormDivRight">
+                    <div id="partnerFormOptionULDiv">
+                      <ul id="partnerFormOptionUL">
+                        <li>Wsg</li>
+                      </ul>
+                    </div>
+                    <div id="optionPriceDiv">
+                      <p id="optionPrice"><b></b></p>
+                    </div>
+                    <div id="partnerFormBtn">
+                      Submit                          
+                    </div>
+                  </div>
+                </div>                                
+            </div>
+        </div>
+
         
     </div>
 

@@ -2,11 +2,14 @@
   background-color: #ae4a84;
   margin-top: 0px;
   width: 100vw;
+  position: fixed;
 }
 #listbar {
   list-style: none;
   display: flex;
   width: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 #logo_item {
   margin-right: 50px;
@@ -33,9 +36,10 @@
   font-weight: bold;
   display: block;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 0px;
 }
+
 #sign_in_up {
   background-color: #ae4a84;
   border: none;
@@ -50,7 +54,7 @@
   background-color: #ef7f1a;
 }
 body {
-  background-color: #008dd2;
+  background-color: #00a0e3;
   margin-left: 0px;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -59,15 +63,16 @@ body {
   display: flex;
 }
 #leftSide {
-  width: 30vw;
+  width: 25vw;
   margin-left: 0px;
   align-content: space-between;
+  margin-top: 10vh;
 }
 #leftCornerImages {
   background-image: url("/bu-front/mockups/assets/talkpage/img_green-back.png");
   margin-left: 0px;
   margin-bottom: auto;
-  margin-top: 70%;
+  margin-top: 100%;
   height: 378.5px;
   width: 232.5px;
   align-self: baseline;
@@ -98,8 +103,9 @@ body {
 }
 #rightSide {
   background-image: url(/bu-front/mockups/assets/homepage/bg_desktop.png);
-  width: 70vw;
+  width: 75vw;
   display: block;
+  margin-top: 10vw;
 }
 #letsTalkLogoDiv {
   width: 100%;
@@ -121,13 +127,15 @@ body {
   border-radius: 15px;
   padding: 10px;
   border: solid 4px white;
-  width: 10vw;
+  width: 12vw;
   text-align: center;
   font-size: 20pt;
   font-family: "Coolvetica", sans-serif;
   font-weight: bold;
   margin-left: 0.5vw;
   margin-right: 0.5vw;
+  background: none;
+  padding-right: 10px;
 }
 #displayArea {
   width: 100%;
@@ -141,4 +149,287 @@ body {
   width: fit-content;
   font-style: italic;
   font-size: 40pt;
+  display: none; !!!!!!
+}
+
+#sponsoringPartnersText{
+  display: flex;
+  display: none;
+  !!!!!!!!!!!!!!!!!!!!!!!!!!
+}
+#sponsoringPartnersTextLeft{
+  display: flex;
+  border-right: 10px white solid;
+  width: 40%;
+  height: 100%;
+  margin-top: 5%;
+}
+#sponsoringPartnersTextLeft1{
+  display: block;
+  width: fit-content;
+  align-content: center;
+}
+#sponsoringPartnersTextLeft2{
+  display: block;
+  width: fit-content;
+}
+.benefits{
+  text-align: center;
+  font-family: 'Coolvetica', sans-serif;
+  font-weight: bold;
+  font-size:12pt;
+  display: block;
+  width: 10vw;
+  background-color: #0279c7;
+  border: 1px solid #0279c7 ;
+  color: white;
+  border-radius: 10px;
+  height: 3vw;
+  margin: auto;
+  padding-top: 10px;
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+}
+.benefitsText{
+  font-family: 'Coolvetica', sans-serif;
+  font-weight: bold;
+  font-size: 15pt;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+  justify-content: center;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+#sponsoringPartnersTextRight{
+  width: 60%;
+  height: 100%;
+  margin-top: 5%;
+  display: block;
+}
+#sponsoringPartnersTextRightTop{
+  color: white;
+  font-family: Corbel, sans-serif;
+  font-size: 19pt;
+  margin-left: 5%;
+  text-align: left;
+  margin-top: 5%;
+  height: 70%;
+}
+#sponsoringPartnersTextRightBottom{
+  height: 30%;
+  width: 100%;
+  display: flex;
+}
+#sponsoringPartnersTextRightBottomLeft{
+  font-family: Corbel, sans-serif;
+  color: white;
+  font-size: 18pt;
+  text-align: left;
+  margin-left: 7%;
+  margin-bottom: 0%;
+  margin-top: 15%;
+  width: 60%;
+}
+#sponsoringPartnersTextRightBottomRight{
+  width: 40%;
+  margin-bottom: 0%;
+  margin-top: 22%;
+}
+#partnerFormbtn{
+  background-color: #68b436;
+  font-family: 'Coolvetica',sans-serif;
+  font-size: 16pt;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+#eventPartnersText{
+  display: flex;
+  display: none;
+  !!!!!!!!!!!!!!!!!!!!!!!!!
+}
+#eventPartnersTextLeft{
+  display: flex;
+  border-right: 10px white solid;
+  width: 40%;
+  height: 100%;
+  padding-top: 7.5%;
+  padding-bottom: 7.5%;
+  margin-top: 5%;
+}
+#eventPartnersTextLeft1{
+  display: block;
+  width: fit-content;
+  align-content: center;
+}
+#eventPartnersTextLeft2{
+  display: block;
+  width: fit-content;
+}
+#eventPartnersTextRight{
+  width: 60%;
+  height: 100%;
+  margin-top: 5%;
+  display: block;
+}
+#eventPartnersTextRightTop{
+  color: white;
+  font-family: Corbel, sans-serif;
+  font-size: 19pt;
+  margin-left: 5%;
+  text-align: left;
+  margin-top: 5%;
+  height: 90%;
+}
+#eventPartnersTextRightBottom{
+  height: 10%;
+  width: 100%;
+  display: flex;
+}
+#eventPartnersTextRightBottomLeft{
+  font-family: Corbel, sans-serif;
+  color: white;
+  font-size: 18pt;
+  text-align: left;
+  margin-left: 7%;
+  margin-bottom: 0%;
+  margin-top: 15%;
+  width: 60%;
+}
+#eventPartnersTextRightBottomRight{
+  width: 40%;
+  margin-bottom: 0%;
+  margin-top: 10%;
+}
+#rafflePartnersText{
+  display: flex;
+  display: none;
+  !!!!!!!!!!!!!!!!!!!!
+}
+#rafflePartnersTextLeft{
+  border-right: 10px white solid;
+  width: 40%;
+  height: 100%;
+  padding-top: 7.5%;
+  padding-bottom: 7.5%;
+  margin-top: 5%;
+  display: block;
+  align-content: center;
+}
+#rafflePartnersTextRight{
+  width: 60%;
+  height: 100%;
+  margin-top: 5%;
+  display: block;
+}
+#rafflePartnersTextRightTop{
+  color: white;
+  font-family: Corbel, sans-serif;
+  font-size: 19pt;
+  margin-left: 5%;
+  text-align: left;
+  margin-top: 5%;
+  height: 90%;
+}
+#rafflePartnersTextRightBottom{
+  height: 10%;
+  width: 100%;
+  display: flex;
+}
+#rafflePartnersTextRightBottomLeft{
+  font-family: Corbel, sans-serif;
+  color: white;
+  font-size: 18pt;
+  text-align: left;
+  margin-left: 7%;
+  margin-bottom: 0%;
+  margin-top: 15%;
+  width: 60%;
+}
+#rafflePartnersTextRightBottomRight{
+  width: 40%;
+  margin-bottom: 0%;
+  margin-top: 10%;
+}
+.benefitsRaffle{
+  text-align: center;
+  font-family: 'Coolvetica', sans-serif;
+  font-weight: bold;
+  font-size:12pt;
+  display: block;
+  width: 10vw;
+  background-color: #0279c7;
+  border: 1px solid #0279c7 ;
+  color: white;
+  border-radius: 10px;
+  height: 3vw;
+  margin: auto;
+  padding-top: 10px;
+}
+#partnerFormDiv{
+  display: flex;
+}
+#partnerFormDivLeft{
+  display: flex;
+  color: white;
+  font-family: Corbel,sans-serif;
+  font-size: 18pt;
+  width: 40%;
+  margin-top: 5%;
+  border-right: 10px white solid;
+  padding-right: 5%;
+}
+#partnerFormLabels{
+  text-align: left;
+  display: block;
+  width: 35%;
+}
+#partnerFormInputs{
+  width: 65%;
+}
+#partnerForm{
+  width: 100%;
+  justify-content: start;
+}
+#partnerForm>*{
+  background: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 25px;
+  width: 100%;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5px;
+}
+#firstNameInput{
+  margin-top: 0px;
+}
+.typeOfPlanOption{
+  font-family: Corbel,sans-serif;
+  font-size: 15pt;
+  text-align: left;
+}
+#typeOfPlanInput{
+  background-color: #00a0e3;
+  height: 30px;
+  width: 102%;
+}
+#partnerFormDivRight{
+  width: 60%;
+  height: 100%;
+  margin-top: 5%;
+  display: block;
+  color: white;
+}
+#partnerFormOptionULDiv{
+  height: 40%;
+  text-align: left;
+}
+#partnerFormOptionUL{
+  font-family: 'Coolvetica', sans-serif;
+  font-size: 20pt;
 }
