@@ -149,39 +149,37 @@ body {
   width: fit-content;
   font-style: italic;
   font-size: 40pt;
-  display: none; !!!!!!
 }
 
-#sponsoringPartnersText{
+#sponsoringPartnersText {
   display: flex;
   display: none;
-  !!!!!!!!!!!!!!!!!!!!!!!!!!
 }
-#sponsoringPartnersTextLeft{
+#sponsoringPartnersTextLeft {
   display: flex;
   border-right: 10px white solid;
   width: 40%;
   height: 100%;
   margin-top: 5%;
 }
-#sponsoringPartnersTextLeft1{
+#sponsoringPartnersTextLeft1 {
   display: block;
   width: fit-content;
   align-content: center;
 }
-#sponsoringPartnersTextLeft2{
+#sponsoringPartnersTextLeft2 {
   display: block;
   width: fit-content;
 }
-.benefits{
+.benefits {
   text-align: center;
-  font-family: 'Coolvetica', sans-serif;
+  font-family: "Coolvetica", sans-serif;
   font-weight: bold;
-  font-size:12pt;
+  font-size: 12pt;
   display: block;
   width: 10vw;
   background-color: #0279c7;
-  border: 1px solid #0279c7 ;
+  border: 1px solid #0279c7;
   color: white;
   border-radius: 10px;
   height: 3vw;
@@ -190,8 +188,8 @@ body {
   margin-right: 1.5vw;
   margin-left: 1.5vw;
 }
-.benefitsText{
-  font-family: 'Coolvetica', sans-serif;
+.benefitsText {
+  font-family: "Coolvetica", sans-serif;
   font-weight: bold;
   font-size: 15pt;
   color: white;
@@ -201,13 +199,13 @@ body {
   margin-left: 1.5vw;
   margin-right: 1.5vw;
 }
-#sponsoringPartnersTextRight{
+#sponsoringPartnersTextRight {
   width: 60%;
   height: 100%;
   margin-top: 5%;
   display: block;
 }
-#sponsoringPartnersTextRightTop{
+#sponsoringPartnersTextRightTop {
   color: white;
   font-family: Corbel, sans-serif;
   font-size: 19pt;
@@ -216,12 +214,12 @@ body {
   margin-top: 5%;
   height: 70%;
 }
-#sponsoringPartnersTextRightBottom{
+#sponsoringPartnersTextRightBottom {
   height: 30%;
   width: 100%;
   display: flex;
 }
-#sponsoringPartnersTextRightBottomLeft{
+#sponsoringPartnersTextRightBottomLeft {
   font-family: Corbel, sans-serif;
   color: white;
   font-size: 18pt;
@@ -231,14 +229,14 @@ body {
   margin-top: 15%;
   width: 60%;
 }
-#sponsoringPartnersTextRightBottomRight{
+#sponsoringPartnersTextRightBottomRight {
   width: 40%;
   margin-bottom: 0%;
   margin-top: 22%;
 }
-#partnerFormbtn{
+#partnerFormbtn {
   background-color: #68b436;
-  font-family: 'Coolvetica',sans-serif;
+  font-family: "Coolvetica", sans-serif;
   font-size: 16pt;
   font-weight: bold;
   color: white;
@@ -246,12 +244,11 @@ body {
   border-radius: 10px;
   padding: 10px;
 }
-#eventPartnersText{
+#eventPartnersText {
   display: flex;
   display: none;
-  !!!!!!!!!!!!!!!!!!!!!!!!!
 }
-#eventPartnersTextLeft{
+#eventPartnersTextLeft {
   display: flex;
   border-right: 10px white solid;
   width: 40%;
@@ -260,22 +257,22 @@ body {
   padding-bottom: 7.5%;
   margin-top: 5%;
 }
-#eventPartnersTextLeft1{
+#eventPartnersTextLeft1 {
   display: block;
   width: fit-content;
   align-content: center;
 }
-#eventPartnersTextLeft2{
+#eventPartnersTextLeft2 {
   display: block;
   width: fit-content;
 }
-#eventPartnersTextRight{
+#eventPartnersTextRight {
   width: 60%;
   height: 100%;
   margin-top: 5%;
   display: block;
 }
-#eventPartnersTextRightTop{
+#eventPartnersTextRightTop {
   color: white;
   font-family: Corbel, sans-serif;
   font-size: 19pt;
@@ -284,12 +281,12 @@ body {
   margin-top: 5%;
   height: 90%;
 }
-#eventPartnersTextRightBottom{
+#eventPartnersTextRightBottom {
   height: 10%;
   width: 100%;
   display: flex;
 }
-#eventPartnersTextRightBottomLeft{
+#eventPartnersTextRightBottomLeft {
   font-family: Corbel, sans-serif;
   color: white;
   font-size: 18pt;
@@ -299,17 +296,16 @@ body {
   margin-top: 15%;
   width: 60%;
 }
-#eventPartnersTextRightBottomRight{
+#eventPartnersTextRightBottomRight {
   width: 40%;
   margin-bottom: 0%;
   margin-top: 10%;
 }
-#rafflePartnersText{
+#rafflePartnersText {
   display: flex;
   display: none;
-  !!!!!!!!!!!!!!!!!!!!
 }
-#rafflePartnersTextLeft{
+#rafflePartnersTextLeft {
   border-right: 10px white solid;
   width: 40%;
   height: 100%;
@@ -319,13 +315,13 @@ body {
   display: block;
   align-content: center;
 }
-#rafflePartnersTextRight{
+#rafflePartnersTextRight {
   width: 60%;
   height: 100%;
   margin-top: 5%;
   display: block;
 }
-#rafflePartnersTextRightTop{
+#rafflePartnersTextRightTop {
   color: white;
   font-family: Corbel, sans-serif;
   font-size: 19pt;
@@ -334,12 +330,12 @@ body {
   margin-top: 5%;
   height: 90%;
 }
-#rafflePartnersTextRightBottom{
+#rafflePartnersTextRightBottom {
   height: 10%;
   width: 100%;
   display: flex;
 }
-#rafflePartnersTextRightBottomLeft{
+#rafflePartnersTextRightBottomLeft {
   font-family: Corbel, sans-serif;
   color: white;
   font-size: 18pt;
@@ -349,87 +345,115 @@ body {
   margin-top: 15%;
   width: 60%;
 }
-#rafflePartnersTextRightBottomRight{
+#rafflePartnersTextRightBottomRight {
   width: 40%;
   margin-bottom: 0%;
   margin-top: 10%;
 }
-.benefitsRaffle{
+.benefitsRaffle {
   text-align: center;
-  font-family: 'Coolvetica', sans-serif;
+  font-family: "Coolvetica", sans-serif;
   font-weight: bold;
-  font-size:12pt;
+  font-size: 12pt;
   display: block;
   width: 10vw;
   background-color: #0279c7;
-  border: 1px solid #0279c7 ;
+  border: 1px solid #0279c7;
   color: white;
   border-radius: 10px;
   height: 3vw;
   margin: auto;
   padding-top: 10px;
 }
-#partnerFormDiv{
+#partnerFormDiv {
   display: flex;
+  display: none;
 }
-#partnerFormDivLeft{
+#partnerFormDivLeft {
   display: flex;
   color: white;
-  font-family: Corbel,sans-serif;
+  font-family: Corbel, sans-serif;
   font-size: 18pt;
   width: 40%;
   margin-top: 5%;
   border-right: 10px white solid;
   padding-right: 5%;
 }
-#partnerFormLabels{
+#partnerFormLabels {
   text-align: left;
   display: block;
   width: 35%;
 }
-#partnerFormInputs{
+#partnerFormInputs {
   width: 65%;
 }
-#partnerForm{
+#partnerForm {
   width: 100%;
   justify-content: start;
 }
-#partnerForm>*{
+#partnerForm > * {
   background: none;
   border: 2px solid white;
   border-radius: 5px;
   height: 25px;
   width: 100%;
   color: white;
-  margin-top: 5%;
-  margin-bottom: 5%;
   margin-left: 5px;
 }
-#firstNameInput{
+#firstNameInput {
   margin-top: 0px;
 }
-.typeOfPlanOption{
-  font-family: Corbel,sans-serif;
+.typeOfPlanOption {
+  font-family: Corbel, sans-serif;
   font-size: 15pt;
   text-align: left;
 }
-#typeOfPlanInput{
+#typeOfPlanInput {
   background-color: #00a0e3;
   height: 30px;
   width: 102%;
 }
-#partnerFormDivRight{
+#partnerFormDivRight {
   width: 60%;
   height: 100%;
   margin-top: 5%;
   display: block;
   color: white;
 }
-#partnerFormOptionULDiv{
-  height: 40%;
+#partnerFormOptionULDiv {
+  height: 50%;
   text-align: left;
+  margin-left: 5%;
 }
-#partnerFormOptionUL{
-  font-family: 'Coolvetica', sans-serif;
-  font-size: 20pt;
+#partnerFormOptionUL {
+  font-family: "Coolvetica", sans-serif;
+  font-size: 30pt;
+}
+#optionPriceDiv {
+  height: 30%;
+  font-family: "Coolvetica", sans-serif;
+  font-size: 35pt;
+}
+#partnerFormBtnDiv {
+  height: 20%;
+  width: 100%;
+  justify-content: right;
+  align-items: end;
+}
+#partnerFormSubmitBtn {
+  padding: 15px;
+  font-family: "Coolvetica", sans-serif;
+  font-weight: bold;
+  font-size: 25pt;
+  text-align: center;
+  background-color: #68b436;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-right: 0%;
+  margin-left: auto;
+}
+#partnerFormOptionOther {
+  font-family: "Coolvetica", sans-serif;
+  font-size: 30pt;
 }
