@@ -1,8 +1,8 @@
+//Desktop Elements
 const sponsoringPartnersButton = document.getElementById("SponsoringPartners");
 const eventPartnersButton = document.getElementById("EventPartners");
 const rafflePartnersButton = document.getElementById("RafflePartners");
 const typeOfOption = document.getElementById("PartnerWithUs");
-const displayArea = document.getElementById("displayArea");
 const partnerFormbtn = document.getElementById("partnerFormbtn");
 const sponsoringPartnersText = document.getElementById(
   "sponsoringPartnersText"
@@ -12,6 +12,7 @@ const rafflePartnersText = document.getElementById("rafflePartnersText");
 const partnerFormDiv = document.getElementById("partnerFormDiv");
 const placeholderText = document.getElementById("placeholderText");
 const partnerFormDivRight = document.getElementById("partnerFormDivRight");
+//Desktop Functionality
 const sponsoringPartners = function () {
   typeOfOption.innerHTML = "Sponsoring Partners";
   sponsoringPartnersText.style.display = "flex";
@@ -111,4 +112,100 @@ const optionPicked = function () {
   } else {
     partnerFormDivRight.innerHTML = "";
   }
+};
+
+//Mobile Elements
+const sponsoringPartnersBtnMobile = document.getElementById(
+  "sponsoringPartnersBtnMobile"
+);
+const eventPartnersBtnMobile = document.getElementById(
+  "eventPartnersBtnMobile"
+);
+const rafflePartnersBtnMobile = document.getElementById(
+  "rafflePartnersBtnMobile"
+);
+const headerLeft = document.getElementById("headerLeft");
+const sponsoringPartnersMobile = document.getElementById(
+  "sponsoringPartnersMobile"
+);
+const eventPartnersMobile = document.getElementById("eventPartnersMobile");
+const rafflePartnersMobile = document.getElementById("rafflePartnersMobile");
+const partnerFormDivMobile = document.getElementById("partnerFormDivMobile");
+const partnerOptionsDivMobile = document.getElementById(
+  "partnerOptionsDivMobile"
+);
+const optionDetailsMobile = document.getElementById("optionDetailsMobile");
+const partnerFormSubmitBtn = document.getElementById("partnerFormSubmitBtn");
+//Mobile Functionality
+const optionPickedMobile = function () {
+  if (document.getElementById("typeOfPlanInputMobile").value == "12 months") {
+    optionDetailsMobile.innerHTML = `<div id="partnerFormOptionULDivMobile">
+                      <ul id="partnerFormOptionULMobile">
+                      <li>3 social media posts</li>
+                      <li>24 email campaign footers</li>
+                      <li>$4YT sponsor island</li>
+                      <li>Logo in website footer</li>
+                      </ul>
+                    </div>
+                    <div id="optionPriceDivMobile">
+                      <p id="optionPriceMobile"><b>12 months</b>/$5000</p>
+                    </div><br><br>`;
+  } else if (
+    document.getElementById("typeOfPlanInputMobile").value == "6 months"
+  ) {
+    optionDetailsMobile.innerHTML = `<div id="partnerFormOptionULDivMobile">
+                      <ul id="partnerFormOptionULMobile">
+                      <li>2 social media posts</li>
+                      <li>6 email campaign footers</li>
+                      <li>Logo in website footer</li>
+                      </ul>
+                    </div>
+                    <div id="optionPriceDivMobile">
+                      <p id="optionPriceMobile"><b>6 months</b>/$2700</p>
+                    </div><br><br>`;
+  } else if (
+    document.getElementById("typeOfPlanInputMobile").value == "Other"
+  ) {
+    optionDetailsMobile.innerHTML = `<div id="partnerFormOptionOtherMobile">
+                      Don't like options you see?
+                    </div>
+                    <div id="optionPriceDivMobile" style="text-align:center; font-weight:bold">
+                      <p id="optionPriceMobile">Contact us to find a custom option to fit your company!</p>
+                    </div><br><br>`;
+  } else {
+    optionDetailsMobile.innerHTML = "";
+  }
+};
+const sponsoringPartnersPageMobile = function () {
+  sponsoringPartnersMobile.style.display = "block";
+  eventPartnersMobile.style.display = "none";
+  rafflePartnersMobile.style.display = "none";
+  partnerFormDivMobile.style.display = "none";
+  partnerOptionsDivMobile.style.display = "none";
+  partnerFormSubmitBtn.style.display = "none";
+};
+const eventPartnersPageMobile = function () {
+  eventPartnersMobile.style.display = "block";
+  sponsoringPartnersMobile.style.display = "none";
+  rafflePartnersMobile.style.display = "none";
+  partnerFormDivMobile.style.display = "none";
+  partnerOptionsDivMobile.style.display = "none";
+  partnerFormSubmitBtn.style.display = "none";
+};
+
+const rafflePartnersPageMobile = function () {
+  rafflePartnersMobile.style.display = "block";
+  eventPartnersMobile.style.display = "none";
+  sponsoringPartnersMobile.style.display = "none";
+  partnerFormDivMobile.style.display = "none";
+  partnerOptionsDivMobile.style.display = "none";
+  partnerFormSubmitBtn.style.display = "none";
+};
+const goToPartnerFormMobile = function () {
+  partnerFormDivMobile.style.display = "block";
+  eventPartnersMobile.style.display = "none";
+  rafflePartnersMobile.style.display = "none";
+  sponsoringPartnersMobile.style.display = "none";
+  partnerOptionsDivMobile.style.display = "none";
+  partnerFormSubmitBtn.style.display = "block";
 };
